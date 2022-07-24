@@ -1,6 +1,6 @@
-Proceso tallerDosEjercicioSiete
-	// Septimo programa: Calculo IMC 	
-	Definir peso, estatura, IMC  Como Real;
+// Septimo programa: Calculo IMC 	
+SubProceso calculoIMC()
+	Definir peso, estatura, IMC Como Real;
 	
 	Escribir 'Bienvenido a la aplicacion de calculo de IMC';
 	Escribir 'Ingrese su peso (kg): ';
@@ -22,4 +22,8 @@ Proceso tallerDosEjercicioSiete
 	Si IMC > 30 Entonces
 		Escribir 'Su IMC es de ',IMC,'. Usted presenta obesidad';
 	FinSi
+FinSubProceso
+
+Proceso miFuncion
+	calculoIMC();
 FinProceso

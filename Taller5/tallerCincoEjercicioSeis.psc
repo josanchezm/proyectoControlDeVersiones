@@ -1,5 +1,5 @@
-Proceso tallerDosEjercicioSeis
-	// Sexto programa: taller de motos 	
+// Sexto programa: taller de motos 	
+SubProceso tallerMotos()
 	Definir marcaModeloAnnio, fechaIngreso, valoracionIngreso, fechaSalida, valoracionSalida, arreglos Como Caracter;
 	Definir opcion Como Entero;
 	Definir respuesta Como Logico;
@@ -71,4 +71,8 @@ Proceso tallerDosEjercicioSeis
 		De Otro Modo:
 			Escribir 'La opcion elegida no existe';
 	FinSegun
+FinSubProceso
+
+Proceso miFuncion
+	tallerMotos();
 FinProceso

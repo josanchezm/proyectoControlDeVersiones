@@ -1,5 +1,5 @@
-Proceso tallerDosEjercicioOcho
-	// Octavo programa: pasteleria 	
+// Octavo programa: pasteleria 	
+SubProceso pasteleria()
 	Definir saborTorta, decoraciones, tortasDisponibles, fecha Como Caracter;
 	Definir porcionesTorta, ventasDelDia, opcion Como Entero;
 	
@@ -33,4 +33,8 @@ Proceso tallerDosEjercicioOcho
 		De Otro Modo:
 			Escribir 'La opcion elegida no existe';
 	FinSegun
+FinSubProceso
+
+Proceso miFuncion
+	pasteleria();
 FinProceso

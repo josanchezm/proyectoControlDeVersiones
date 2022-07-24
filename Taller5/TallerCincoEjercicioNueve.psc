@@ -1,5 +1,5 @@
-Proceso tallerDosEjercicioNueve
-	// Noveno programa: Calculo figuras geometricas 
+// Noveno programa: Calculo figuras geometricas 
+SubProceso figurasGeometricas()
 	Definir opcion Como Entero;
 	Definir unidad Como Caracter;
 	Definir areaRectangulo, baseRectangulo, alturaRectangulo, areaTriangulo, baseTriangulo, alturaTriangulo, areaTrapecio, baseMayorTrapecio, baseMenorTrapecio, alturaTrapecio Como Real;
@@ -48,4 +48,8 @@ Proceso tallerDosEjercicioNueve
 		De Otro Modo:
 			Escribir 'La opcion escogida no existe';
 	FinSegun
+FinSubProceso
+
+Proceso miFuncion
+	figurasGeometricas();
 FinProceso

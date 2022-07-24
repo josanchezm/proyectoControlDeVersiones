@@ -1,5 +1,5 @@
-Proceso tallerDosEjercicioCinco
-	// Quinto programa: Drogueria	
+// Quinto programa: Drogueria	
+SubProceso drogeria()
 	Definir opcion Como Entero;
 	Definir producto, productoDevuelto, razonDevolucion Como Caracter;
 	Definir respuesta Como Logico;;
@@ -18,7 +18,7 @@ Proceso tallerDosEjercicioCinco
 			Escribir '2. Jarabe de miel (Efectivo para los sintomas de la tos)';
 			Escribir '3. Shampoo (Para cabellos grasos)';
 			Escribir '4. Pedialyte (Para sintomas de deshidratacion)';
-			Escribir 'Elija el producto deseado por su nombre en catalogo: ';
+			Escribir 'Elija el producto deseado segun su nombre en catalogo';
 			Leer producto; 
 			Si producto = 'Acetaminofen' O producto = 'Jarabe de miel' O producto = 'Shampoo' O producto = 'Pedialyte' Entonces
 				Escribir 'Usted ha escogido el producto ', producto,'. desea continuar la compra? elija Verdadero o Falso';
@@ -50,4 +50,8 @@ Proceso tallerDosEjercicioCinco
 		De Otro Modo:
 			Escribir 'La opcion elegida no existe';
 	FinSegun
+FinSubProceso
+
+Proceso miFuncion
+	drogeria();
 FinProceso

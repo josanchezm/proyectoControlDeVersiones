@@ -1,5 +1,5 @@
-Proceso tallerDosEjercicioCuatro
-	// Cuarto programa: video tienda 
+// Cuarto programa: video tienda 
+SubProceso videoTienda()
 	Definir pelicula, estadoPelicula Como Caracter;
 	Definir opcion Como Entero;
 	Definir anotaciones Como Logico;
@@ -40,4 +40,8 @@ Proceso tallerDosEjercicioCuatro
 		De Otro Modo:
 			Escribir 'La opcion elegida no existe';
 	FinSegun 
+FinSubProceso
+
+Proceso miFuncion
+	videoTienda();
 FinProceso
